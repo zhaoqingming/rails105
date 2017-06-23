@@ -1,4 +1,4 @@
-<nav class="navbar-default" role="navigation">
+<nav class="navbar navbar-default" role="navigation">
    <div class="container-fluid">
      <div class="navbar-header">
        <a class="navbar-brand" href="/">Rails 105</a>
@@ -12,7 +12,7 @@
           <li><%= link_to("登录", new_user_session_path) %></li>
         <% else %>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" date-toggle="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               Hi!, <%= current_user.email %>
               <b class="caret"></b>
             </a>
